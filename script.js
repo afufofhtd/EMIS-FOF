@@ -1,4 +1,4 @@
-const API_URL = "YOUR_SCRIPT_URL";
+const API_URL = "https://script.google.com/macros/s/AKfycbxHs06tuOj9k0dp2T7EpxwDw_rdTR8KPUysvRw2jwBTxliG7QqrRbOzEC2Z8m_G6e9XaA/exec";
 let currentReport = "";
 
 // ADD STUDENT
