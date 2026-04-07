@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Report System</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<h1>Student Report System</h1>
+
+<div>
+  <input type="text" id="name" placeholder="Student Name">
+  <input type="number" id="marks" placeholder="Marks">
+  <button onclick="addStudent()">Add Student</button>
+</div>
+
+<hr>
+
+<h2>Student List</h2>
+<div id="list"></div>
+
+<hr>
+
+<h2>Report Preview</h2>
+<div id="preview"></div>
+
+<button onclick="downloadPDF()">Download PDF</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
